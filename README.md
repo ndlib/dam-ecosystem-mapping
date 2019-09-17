@@ -8,8 +8,11 @@ One component of the project is to gather a draft of the systems that currently 
 
 Status | Application | Diagram
 -|-|-
-First Pass | [CurateND](https://github.com/ndlib/curate_nd) | [Diagram](./plantuml/curate_nd.svg)
-First Pass | [Sipity](https://github.com/ndlib/sipity) | [Diagram](./plantuml/sipity.svg)
+Pending | [ArchivesSpace](http://archivesspace.library.nd.edu) | -
+First Pass | [CurateND](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
+Pending | [MARBLE](https://marble.library.nd.edu) | -
+Pending | [Seaside](https://seaside.library.nd.edu) | -
+First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sipity.svg)
 
 
 ### States

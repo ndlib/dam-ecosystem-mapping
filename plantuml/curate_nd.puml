@@ -39,6 +39,9 @@ package "Batch" {
   component Jobs as BatchJobs
 }
 
+node "Batch Staging" {
+  
+}
 
 package "Bendo" {
   interface API as BendoAPI
