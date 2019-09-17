@@ -1,0 +1,41 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+package "Sipity" {
+  component "File\nStorage" as FS
+  component "Descriptive\nMetadata\nStorage" as DMS
+  component "Batch Exporter" as BE
+  component "Workflows" as SW
+  component "API" as SAPI
+
+}
+
+package "Batch Ingest" as BI {
+  interface "HTTP Interface" as BIHI
+}
+
+cloud "AWS" {
+  interface "File\nStorage\nInterface" as FSI
+  component S3
+}
+
+database "MySql"
+
+FS <--> FSI
+FSI - S3
+DMS <--> MySql
+BE ..> BIHI : uses
+FS ..> BE : reads\nfrom
+DMS ..> BE : reads\nfrom
+BI ..> SAPI : notifies
+SW <--> MySql
+
+@enduml
