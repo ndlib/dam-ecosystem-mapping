@@ -13,7 +13,7 @@ package "Sipity" {
   component "File\nStorage" as FS
   component "Descriptive\nMetadata\nStorage" as DMS
   component "Batch Exporter" as BE
-  component "Workflows" as SW
+  component "Business Logic" as SBL
   component "API" as SAPI
 
 }
@@ -36,6 +36,6 @@ BE ..> BIHI : uses
 FS ..> BE : reads\nfrom
 DMS ..> BE : reads\nfrom
 BI ..> SAPI : notifies
-SW <--> MySql
+SBL <--> MySql
 
 @enduml

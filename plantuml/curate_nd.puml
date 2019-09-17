@@ -1,0 +1,76 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+package "curate.nd.edu" {
+  component "Object Model" as CurateOM
+  component "Workers" as CurateW
+  node "UI" as CurateUI
+  interface "API" as CurateAPI
+  CurateW <--> CurateOM
+}
+
+package "Fedora" {
+  interface "HTTP Interface" as FedoraHTTP
+  folder "File System" as FedoraFS
+}
+
+package "Solr" {
+  interface "HTTP Interface" as SolrHTTP
+}
+
+package "Batch" {
+  interface API as BatchAPI
+  component Jobs as BatchJobs
+}
+
+
+package "Bendo" {
+  interface API as BendoAPI
+  component Cache as BendoC
+  component Storage {
+    component "Copy on\nWrite Layer" as BendoCOW
+    component "Preservation\nLayer" as BendoPL
+  }
+}
+
+package "DTernity" {
+  interface "NFS Mount" as DTernityNFSM
+  interface "CIFS Mount" as DTernityCIFSM
+  package "Storage" as DTernityStorage {
+    component "Cloud" as DternityCS
+    component "Tape" as DternityTS
+  }
+}
+
+folder "Local Storage" {
+  interface "NFS Mount" as LocalNFSMount
+}
+
+folder "SpectraLogic"
+
+cloud "FujiCloud"
+
+cloud AWS {
+  component S3
+}
+BendoPL <--> DTernityNFSM
+CurateOM <--> FedoraHTTP
+CurateOM <--> SolrHTTP
+BatchJobs --> CurateAPI
+BendoCOW <--> LocalNFSMount
+DternityTS <--> SpectraLogic
+DternityCS <--> FujiCloud
+BendoC <--> S3
+CurateW --> BatchAPI
+BatchJobs --> BendoAPI
+BatchJobs --> FedoraHTTP
+BatchJobs <--> LocalNFSMount
+@enduml
