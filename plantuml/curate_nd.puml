@@ -12,19 +12,27 @@
 package "curate.nd.edu" {
   component "Object Model" as CurateOM
   component "Workers" as CurateW
-  node "UI" as CurateUI
+  component "Business Logic" as CurateBL
+  database MySQL
   interface "API" as CurateAPI
   CurateW <--> CurateOM
+  CurateBL <--> MySQL
 }
 
 package "Fedora" {
   interface "HTTP Interface" as FedoraHTTP
   folder "File System" as FedoraFS
 }
+note bottom of Fedora
+  For durable storage
+end note
 
 package "Solr" {
   interface "HTTP Interface" as SolrHTTP
 }
+note bottom of Solr
+  For search
+end note
 
 package "Batch" {
   interface API as BatchAPI

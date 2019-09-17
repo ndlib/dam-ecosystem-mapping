@@ -10,32 +10,32 @@
 @startuml
 
 package "Sipity" {
-  component "File\nStorage" as FS
-  component "Descriptive\nMetadata\nStorage" as DMS
-  component "Batch Exporter" as BE
-  component "Business Logic" as SBL
-  component "API" as SAPI
+  component "File\nStorage" as SipityFS
+  component "Descriptive\nMetadata\nStorage" as SipityDMS
+  component "Batch Exporter" as SipityBE
+  component "Business Logic" as SipityBL
+  interface "API" as SipityAPI
+  database "MySql"
 
 }
 
-package "Batch Ingest" as BI {
-  interface "HTTP Interface" as BIHI
+package "Batch Ingest" as Batch {
+  interface "API" as BatchAPI
 }
+
+package OnBase
 
 cloud "AWS" {
-  interface "File\nStorage\nInterface" as FSI
   component S3
 }
 
-database "MySql"
-
-FS <--> FSI
-FSI - S3
-DMS <--> MySql
-BE ..> BIHI : uses
-FS ..> BE : reads\nfrom
-DMS ..> BE : reads\nfrom
-BI ..> SAPI : notifies
-SBL <--> MySql
+SipityFS <--> S3
+SipityDMS <--> MySql
+SipityBE ..> BatchAPI : uses
+SipityFS ..> SipityBE : reads\nfrom
+SipityDMS ..> SipityBE : reads\nfrom
+Batch ..> SipityAPI : notifies
+SipityBL <--> MySql
+OnBase ..> SipityAPI
 
 @enduml
