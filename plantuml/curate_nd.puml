@@ -18,6 +18,9 @@ package "curate.nd.edu" {
   CurateW <--> CurateOM
   CurateBL <--> MySQL
 }
+package Disadis {
+  folder "Web Logs" as WebLogs
+}
 
 package "Fedora" {
   interface "HTTP Interface" as FedoraHTTP
@@ -36,11 +39,9 @@ end note
 
 package "Batch" {
   interface API as BatchAPI
-  component Jobs as BatchJobs
-}
-
-node "Batch Staging" {
-  
+  component "System\nWorkers" as BatchWorkers
+  component Staging as BatchStaging
+  BatchWorkers --> BatchStaging
 }
 
 package "Bendo" {
@@ -72,16 +73,27 @@ cloud "FujiCloud"
 cloud AWS {
   component S3
 }
+
+package "curate metrics" {
+  component "Harvester"
+  Harvester <-- WebLogs
+  Harvester <-- FedoraHTTP
+  Harvester <-- FedoraFS
+  Harvester <-- BendoAPI
+}
+
 BendoPL <--> DTernityNFSM
 CurateOM <--> FedoraHTTP
 CurateOM <--> SolrHTTP
-BatchJobs --> CurateAPI
+BatchWorkers --> CurateAPI
 BendoCOW <--> LocalNFSMount
 DternityTS <--> SpectraLogic
 DternityCS <--> FujiCloud
 BendoC <--> S3
 CurateW --> BatchAPI
-BatchJobs --> BendoAPI
-BatchJobs --> FedoraHTTP
-BatchJobs <--> LocalNFSMount
+BatchWorkers --> BendoAPI
+BatchWorkers <--> FedoraHTTP
+BatchWorkers <--> LocalNFSMount
+BatchStaging --> LocalNFSMount
+Disadis <--> FedoraHTTP
 @enduml
