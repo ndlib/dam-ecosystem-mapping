@@ -14,7 +14,11 @@ Pending | [MARBLE](https://marble.library.nd.edu) | -
 Pending | [Seaside](https://seaside.library.nd.edu) | -
 First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sipity.svg)
 
-
 ### States
 
+* Pending - Waiting on a conversation to better understand
 * First Pass - Written as a matter of starting a conversation.
+
+### Concering Applications
+
+This documentation does not look to articulate what "goes in" an application. Instead to define the technology (in particular storage) and interactions between systems.
