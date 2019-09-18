@@ -15,8 +15,8 @@ package "curate.nd.edu" {
   component "Business Logic" as CurateBL
   database MySQL
   interface "API" as CurateAPI
-  CurateW <--> CurateOM
-  CurateBL <--> MySQL
+  CurateW --> CurateOM
+  CurateBL --> MySQL
 }
 package Disadis {
   folder "Web Logs" as WebLogs
@@ -76,24 +76,25 @@ cloud AWS {
 
 package "curate metrics" {
   component "Harvester"
-  Harvester <-- WebLogs
-  Harvester <-- FedoraHTTP
-  Harvester <-- FedoraFS
-  Harvester <-- BendoAPI
+  Harvester --> WebLogs
+  Harvester --> FedoraHTTP
+  Harvester --> FedoraFS
+  Harvester --> BendoAPI
 }
 
-BendoPL <--> DTernityNFSM
-CurateOM <--> FedoraHTTP
-CurateOM <--> SolrHTTP
+BendoPL --> DTernityNFSM
+CurateOM --> FedoraHTTP
+CurateOM --> SolrHTTP
 BatchWorkers --> CurateAPI
-BendoCOW <--> LocalNFSMount
-DternityTS <--> SpectraLogic
-DternityCS <--> FujiCloud
-BendoC <--> S3
+BendoCOW --> LocalNFSMount
+DternityTS --> SpectraLogic
+DternityCS --> FujiCloud
+BendoC --> S3
 CurateW --> BatchAPI
 BatchWorkers --> BendoAPI
-BatchWorkers <--> FedoraHTTP
-BatchWorkers <--> LocalNFSMount
+BatchWorkers --> FedoraHTTP
+BatchWorkers --> LocalNFSMount
 BatchStaging --> LocalNFSMount
-Disadis <--> FedoraHTTP
+Disadis --> FedoraHTTP
+CurateBL --> Disadis
 @enduml

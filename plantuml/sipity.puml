@@ -29,13 +29,13 @@ cloud "AWS" {
   component S3
 }
 
-SipityFS <--> S3
-SipityDMS <--> MySql
-SipityBE ..> BatchAPI : uses
-SipityFS ..> SipityBE : reads\nfrom
-SipityDMS ..> SipityBE : reads\nfrom
-Batch ..> SipityAPI : notifies
-SipityBL <--> MySql
-OnBase ..> SipityAPI
+SipityFS --> S3
+SipityDMS --> MySql
+SipityBE --> BatchAPI
+SipityFS --> SipityBE
+SipityDMS --> SipityBE
+Batch ..> SipityAPI : "From Webhook\nprovided by\nSipity"
+SipityBL --> MySql
+OnBase --> SipityAPI
 
 @enduml

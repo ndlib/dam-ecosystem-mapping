@@ -19,6 +19,11 @@ First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sip
 * Pending - Waiting on a conversation to better understand
 * First Pass - Written as a matter of starting a conversation.
 
+### Directonal Arrows
+
+Bi-directional - Both elements know of each other
+Uni-directional - The pointing element knows about the target of the arrow, the targeted element does not know about the pointing element
+
 ### Concering Applications
 
 This documentation does not look to articulate what "goes in" an application. Instead to define the technology (in particular storage) and interactions between systems.
