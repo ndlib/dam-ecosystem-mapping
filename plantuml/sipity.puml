@@ -23,7 +23,14 @@ package "Batch Ingest" as Batch {
   interface "API" as BatchAPI
 }
 
+package Noids {
+  database MySQL as MySQLNoids
+}
+
 package OnBase
+
+package Locabulary
+SipityDMS ..> Locabulary : "for\ncontrolled\nvocabulary"
 
 cloud "AWS" {
   component S3
@@ -36,6 +43,7 @@ SipityFS --> SipityBE
 SipityDMS --> SipityBE
 Batch ..> SipityAPI : "From Webhook\nprovided by\nSipity"
 SipityBL --> MySql
+SipityBL --> Noids
 OnBase --> SipityAPI
 
 @enduml

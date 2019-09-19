@@ -21,9 +21,11 @@ First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sip
 
 ### Directonal Arrows
 
-Bi-directional - Both elements know of each other
-Uni-directional - The pointing element knows about the target of the arrow, the targeted element does not know about the pointing element
+* Bi-directional - Both elements know that each other exist
+* Uni-directional - The pointing element knows of the existence of the target of the arrow, the targeted element does not know that the pointing element
 
 ### Concering Applications
 
 This documentation does not look to articulate what "goes in" an application. Instead to define the technology (in particular storage) and interactions between systems.
+
+The goal of the documentation is not to identify data flow but instead where data (either metadata or digital objects) may exist

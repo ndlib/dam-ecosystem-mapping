@@ -22,6 +22,23 @@ package Disadis {
   folder "Web Logs" as WebLogs
 }
 
+cloud OSF
+CurateBL --> OSF
+cloud Orcid
+CurateBL --> Orcid
+
+package DEC
+package NDPress
+package Locabulary
+package PresQT
+
+PresQT --> CurateAPI
+
+CurateOM ..> Disadis
+CurateBL ..> DEC : Link to exhibits
+CurateBL ..> NDPress : Link for books
+CurateOM ..> Locabulary : "for\ncontrolled\nvocabulary"
+
 package "Fedora" {
   interface "HTTP Interface" as FedoraHTTP
   folder "File System" as FedoraFS
@@ -73,6 +90,18 @@ cloud "FujiCloud"
 cloud AWS {
   component S3
 }
+
+cloud EZid {
+  component DOIService as EZidDoiService
+}
+CurateBL --> EZidDoiService
+BatchWorkers --> EZidDoiService
+
+package Noids {
+  database MySQL as MySQLNoids
+}
+CurateBL --> Noids
+BatchWorkers --> Noids
 
 package "curate metrics" {
   component "Harvester"
