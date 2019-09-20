@@ -18,8 +18,6 @@ package "Sipity" {
   database "MySql"
 
 }
-actor "Cataloger"
-actor "Grad\nSchool\nEditor" as GradSchoolEditor
 
 package "Batch Ingest" as Batch {
   interface "API" as BatchAPI
@@ -52,13 +50,5 @@ SipityBL --> Noids
 OnBase --> SipityAPI
 SipityBL ..> Aleph
 SipityBL ..> OCLC
-
-
-GradSchoolEditor --> OnBase
-GradSchoolEditor --> Sipity
-Cataloger --> Sipity
-Cataloger --> Aleph
-Cataloger --> OCLC
-
 
 @enduml
