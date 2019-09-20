@@ -1,0 +1,38 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+@startuml
+node HesburghLibraries
+note bottom of HesburghLibraries
+  Without this node,
+  the diagram renders as
+  a sequence diagram
+end note
+
+actor "Mikala N" as MikalaN
+actor "Patrick M" as PatrickM
+actor "Denise M" as DeniseM
+actor "Amanda G" as AmandaG
+actor "Patrick R" as PatrickR
+actor "Sarah W" as SarahW
+actor "Dan J" as DanJ
+actor "Lauren A" as LaurenA
+actor "Elizabeth H" as ElizabethH
+actor "Eric D" as EricD
+actor "Deborah H" as DeborahH
+actor "James C" as JamesC
+
+MikalaN --> PatrickM
+MikalaN --> DeniseM
+MikalaN --> AmandaG
+MikalaN --> PatrickR
+MikalaN --> SarahW
+MikalaN --> DanJ
+MikalaN --> LaurenA
+PatrickM --> ElizabethH
+PatrickM --> EricD
+PatrickM --> SarahW
+PatrickM --> AmandaG
+PatrickM --> PatrickR
+PatrickM --> DeborahH
+PatrickM --> JamesC
+@enduml
