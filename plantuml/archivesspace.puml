@@ -30,5 +30,7 @@ package "BitCurator" {
 }
 
 ArchivesSpace .(0).> rarebooks.library.nd.edu : "For links\nto further description"
+ArchivesSpace .(0).> collections.library.nd.edu : "For links\nto further description"
+ArchivesSpace .(0).> curate.nd.edu : "For links\nto further description"
 ArchivesSpace ..( FurtherDescription
 @enduml
