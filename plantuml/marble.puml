@@ -1,0 +1,44 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+package Embark {
+  component "Metadata" as EmbarkMetadata
+  component "Images" as EmbarkImages
+  component "WebKiosk" as EmbarkWebKiosk
+  EmbarkWebKiosk --> EmbarkMetadata
+  EmbarkWebKiosk --> EmbarkImages
+}
+
+package CatDV {
+  folder Storage
+}
+
+package SniteMuseum {
+  component ImageProcessing as SniteImageProcessing
+}
+
+cloud Google {
+  folder "Snite Metadata" as GoogleSniteMetadata
+  folder "Snite Images" as GoogleSniteImages
+}
+
+SniteImageProcessing --> GoogleSniteImages
+SniteImageProcessing --> EmbarkImages
+SniteImageProcessing --> CatDV
+
+cloud AWS {
+  folder S3
+  package ManifestPipeline
+}
+ManifestPipeline --> EmbarkWebKiosk
+ManifestPipeline --> GoogleSniteMetadata
+ManifestPipeline --> GoogleSniteImages
+@enduml

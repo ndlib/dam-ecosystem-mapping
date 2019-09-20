@@ -1,0 +1,39 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+
+cloud "ArchivesSpace" {
+  component "Front-End"
+  component "Public"
+  component "Backend" {
+    database "RDBMS"
+  }
+}
+
+package "rarebooks.library.nd.edu"
+
+interface "further description" as FurtherDescription
+
+actor "Archivist"
+folder "LoadingDock"
+package "Oxygen"
+package "BitCurator" {
+  component "Checksums"
+  component "Digital\nForensics"
+}
+Archivist --> ArchivesSpace
+Archivist --> LoadingDock
+Archivist --> Oxygen : "For XML\nEditing"
+Archivist --> BitCurator
+
+ArchivesSpace ..> rarebooks.library.nd.edu : "For links\nto further description"
+ArchivesSpace ..> FurtherDescription
+@enduml

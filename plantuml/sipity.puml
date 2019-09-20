@@ -18,6 +18,8 @@ package "Sipity" {
   database "MySql"
 
 }
+actor "Cataloger"
+actor "Grad\nSchool\nEditor" as GradSchoolEditor
 
 package "Batch Ingest" as Batch {
   interface "API" as BatchAPI
@@ -26,6 +28,9 @@ package "Batch Ingest" as Batch {
 package Noids {
   database MySQL as MySQLNoids
 }
+
+package OCLC
+package Aleph
 
 package OnBase
 
@@ -45,5 +50,15 @@ Batch ..> SipityAPI : "From Webhook\nprovided by\nSipity"
 SipityBL --> MySql
 SipityBL --> Noids
 OnBase --> SipityAPI
+SipityBL ..> Aleph
+SipityBL ..> OCLC
+
+
+GradSchoolEditor --> OnBase
+GradSchoolEditor --> Sipity
+Cataloger --> Sipity
+Cataloger --> Aleph
+Cataloger --> OCLC
+
 
 @enduml

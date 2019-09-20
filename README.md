@@ -8,7 +8,7 @@ One component of the project is to gather a draft of the systems that currently 
 
 Status | Application | Diagram
 -|-|-
-Pending | [ArchivesSpace](http://archivesspace.library.nd.edu) | -
+First Pass | [ArchivesSpace](http://archivesspace.library.nd.edu) | [Diagram](./plantuml/archivesspace.svg)
 First Pass | [CurateND](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
 Pending | [MARBLE](https://marble.library.nd.edu) | -
 Pending | [Seaside](https://seaside.library.nd.edu) | -

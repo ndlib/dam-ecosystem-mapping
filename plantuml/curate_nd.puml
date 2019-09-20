@@ -126,4 +126,14 @@ BatchWorkers --> LocalNFSMount
 BatchStaging --> LocalNFSMount
 Disadis --> FedoraHTTP
 CurateBL --> Disadis
+
+actor "Digital\nCollections\nSpecialist" as DCS
+actor Cataloger
+actor "Grad\nSchool\nEditor" as GradSchoolEditor
+
+DCS --> curate.nd.edu
+DCS --> Batch
+Cataloger -> curate.nd.edu
+GradSchoolEditor -> curate.nd.edu
+
 @enduml
