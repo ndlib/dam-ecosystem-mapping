@@ -8,11 +8,25 @@ One component of the project is to gather a draft of the systems that currently 
 
 Status | Application | Diagram
 -|-|-
+? | Aleph   |
 First Pass | [ArchivesSpace](http://archivesspace.library.nd.edu) | [Diagram](./plantuml/archivesspace.svg)
+? | Coral   |
+? | CorpFS   |
 First Pass | [CurateND](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
+? | DEC   |
+? | Google Team Drives   |
+? | Inquisitions   |
+? | Intranet   |
+? | Loading Dock   |
 Pending | [MARBLE](https://marble.library.nd.edu) | -
+? | Medieval Microfilms |
+? | Numismatics   |
+? | Primo   |
+? | Remix   |
+? | Reserves |
 Pending | [Seaside](https://seaside.library.nd.edu) | -
 First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sipity.svg)
+? | Website   |
 
 ### States
 
@@ -23,6 +37,8 @@ First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sip
 
 * Bi-directional - Both elements know that each other exist
 * Uni-directional - The pointing element knows of the existence of the target of the arrow, the targeted element does not know that the pointing element
+
+In some cases you'll see a line like this `--(O)--` or a line like `--(` connecting two systems. These connections highlight an interface common relationship. An example is a URL in ArchivesSpace that is the digital object with a home in rarebooks.library.nd.edu. ArchivesSpace technically doesn't "know" about rarebooks.library.nd.edu, but the data does.
 
 ### Concering Applications
 

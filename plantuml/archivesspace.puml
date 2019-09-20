@@ -29,6 +29,6 @@ package "BitCurator" {
   component "Digital\nForensics"
 }
 
-ArchivesSpace ..> rarebooks.library.nd.edu : "For links\nto further description"
-ArchivesSpace ..> FurtherDescription
+ArchivesSpace .(0).> rarebooks.library.nd.edu : "For links\nto further description"
+ArchivesSpace ..( FurtherDescription
 @enduml

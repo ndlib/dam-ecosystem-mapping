@@ -44,11 +44,11 @@ SipityDMS --> MySql
 SipityBE --> BatchAPI
 SipityFS --> SipityBE
 SipityDMS --> SipityBE
-Batch ..> SipityAPI : "From Webhook\nprovided by\nSipity"
+Batch ..( SipityAPI : "From Webhook\nprovided by\nSipity"
 SipityBL --> MySql
 SipityBL --> Noids
 OnBase --> SipityAPI
-SipityBL ..> Aleph
-SipityBL ..> OCLC
+SipityBL .(0).> Aleph
+SipityBL .(0).> OCLC
 
 @enduml
