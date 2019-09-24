@@ -6,6 +6,8 @@ One component of the project is to gather a draft of the systems that currently 
 
 ## Diagrams
 
+The diagrams are written using [PlantUML](http://plantuml.com) and generated via [Atom](https://atom.io)'s [plantuml-preview](https://github.com/peele/plantuml-preview) plugin.
+
 Status | Application | Diagram
 -|-|-
 ? | Aleph   |
@@ -40,6 +42,25 @@ First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sip
 * Uni-directional - The pointing element knows of the existence of the target of the arrow, the targeted element does not know that the pointing element
 
 In some cases you'll see a line like this `--(O)--` or a line like `--(` connecting two systems. These connections highlight an interface common relationship. An example is a URL in ArchivesSpace that is the digital object with a home in rarebooks.library.nd.edu. ArchivesSpace technically doesn't "know" about rarebooks.library.nd.edu, but the data does.
+
+### Shapes
+
+[PlantUML](http://plantuml.com) provides a set of images to use for diagramming.
+
+![Image legend (see below for descriptions and usage)](./images/icons.svg)
+
+* **Actor** - a person
+* **Cloud** - indicates a cloud-provided service, either admnistered by Notre Dame or otherwise
+  - Examples include: Google Drive, AWS, Orcid, OSF
+* **Folder** - a conceptual storage partition
+  - Examples include: a specific Shared Drive in Google Drive
+* **Frame** - presently unused
+* **Interface** - represents a conceptual interface for other services to conntect
+  - Examples include: Bendo's HTTP interface
+* **Node** - an application or service run locally on a machine.
+  - Examples include: BitCurator, Adobe Acrobat, ImageMagick
+* **Package** - an application or service locally maintained, but URL addressable.
+  - Examples include: curate.nd.edu, deposit.library.nd.edu
 
 ### Concering Applications
 

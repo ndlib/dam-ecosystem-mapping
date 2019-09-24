@@ -1,0 +1,9 @@
+@startuml
+actor Actor
+cloud Cloud
+folder Folder
+frame Frame
+interface Interface
+node Node
+package Package
+@enduml

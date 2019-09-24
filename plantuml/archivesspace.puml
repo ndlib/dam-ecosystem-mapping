@@ -23,8 +23,8 @@ package "rarebooks.library.nd.edu"
 interface "further description" as FurtherDescription
 
 folder "LoadingDock"
-package "Oxygen"
-package "BitCurator" {
+node "Oxygen"
+node "BitCurator" {
   component "Checksums"
   component "Digital\nForensics"
 }
