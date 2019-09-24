@@ -8,24 +8,24 @@ note bottom of HesburghLibraries
   a sequence diagram
 end note
 
-actor "Mikala N" as MikalaN
-actor "Patrick M" as PatrickM
-actor "Denise M" as DeniseM
-actor "Amanda G" as AmandaG
-actor "Patrick R" as PatrickR
-actor "Sarah W" as SarahW
-actor "Dan J" as DanJ
-actor "Lauren A" as LaurenA
-actor "Elizabeth H" as ElizabethH
-actor "Eric D" as EricD
-actor "Deborah H" as DeborahH
-actor "James C" as JamesC
-actor "Eric LM" as EricLM
+actor MikalaN
+actor PatrickM
+actor DeniseM
+actor AmandaG
+actor PatrickR
+actor SarahW
+actor DanJ
+actor LaurenA
+actor ElizabethH
+actor EricD
+actor DeborahH
+actor JamesC
+actor EricLM
 
 MikalaN --> PatrickM
 MikalaN --> DeniseM
-MikalaN --> AmandaG
-MikalaN --> PatrickR
+MikalaN <--> AmandaG
+MikalaN <--> PatrickR
 MikalaN --> SarahW
 MikalaN --> DanJ
 MikalaN --> LaurenA
@@ -37,4 +37,28 @@ PatrickM --> PatrickR
 PatrickM --> DeborahH
 PatrickM --> JamesC
 MikalaN --> EricLM
+PatrickR --> EricLM
+PatrickR --> SarahW
+PatrickR --> EricD
+PatrickR --> MikeR
+PatrickR --> DeniseM
+PatrickR --> DanJ
+PatrickR --> MikalaN
+PatrickR --> ScottK
+PatrickR --> JessicaM
+PatrickR --> NatalieM
+PatrickR --> AdamH
+PatrickR --> MattS
+AmandaG --> EricLM
+AmandaG --> SarahW
+AmandaG --> EricD
+AmandaG --> MikeR
+AmandaG --> DeniseM
+AmandaG --> DanJ
+AmandaG --> MikalaN
+AmandaG --> ScottK
+AmandaG --> JessicaM
+AmandaG --> NatalieM
+AmandaG --> AdamH
+AmandaG --> MattS
 @enduml
