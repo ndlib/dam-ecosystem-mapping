@@ -8,57 +8,69 @@ note bottom of HesburghLibraries
   a sequence diagram
 end note
 
-actor MikalaN
-actor PatrickM
-actor DeniseM
+actor AlexP
 actor AmandaG
-actor PatrickR
-actor SarahW
 actor DanJ
-actor LaurenA
+actor DeborahH
+actor DeniseM
 actor ElizabethH
 actor EricD
-actor DeborahH
-actor JamesC
 actor EricLM
+actor JamesC
+actor JulieV
+actor LaurenA
+actor MikalaN
+actor PatrickM
+actor PatrickR
+actor SarahW
 
-MikalaN --> PatrickM
+AlexP --> AmandaG
+AlexP --> DanJ
+AlexP --> ElizabethH
+AlexP --> EricD
+AlexP --> EricLM
+AlexP --> JulieV
+AlexP --> MattS
+AlexP --> MikalaN
+AlexP --> PatrickR
+AlexP --> ScottK
+AmandaG --> AdamH
+AmandaG --> DanJ
+AmandaG --> DeniseM
+AmandaG --> EricD
+AmandaG --> EricLM
+AmandaG --> JessicaM
+AmandaG --> MattS
+AmandaG --> MikalaN
+AmandaG --> MikeR
+AmandaG --> NatalieM
+AmandaG --> SarahW
+AmandaG --> ScottK
+MikalaN --> DanJ
 MikalaN --> DeniseM
+MikalaN --> EricLM
+MikalaN --> LaurenA
+MikalaN --> PatrickM
+MikalaN --> SarahW
 MikalaN <--> AmandaG
 MikalaN <--> PatrickR
-MikalaN --> SarahW
-MikalaN --> DanJ
-MikalaN --> LaurenA
+PatrickM --> AmandaG
+PatrickM --> DeborahH
 PatrickM --> ElizabethH
 PatrickM --> EricD
-PatrickM --> SarahW
-PatrickM --> AmandaG
-PatrickM --> PatrickR
-PatrickM --> DeborahH
 PatrickM --> JamesC
-MikalaN --> EricLM
-PatrickR --> EricLM
-PatrickR --> SarahW
-PatrickR --> EricD
-PatrickR --> MikeR
-PatrickR --> DeniseM
-PatrickR --> DanJ
-PatrickR --> MikalaN
-PatrickR --> ScottK
-PatrickR --> JessicaM
-PatrickR --> NatalieM
+PatrickM --> PatrickR
+PatrickM --> SarahW
 PatrickR --> AdamH
+PatrickR --> DanJ
+PatrickR --> DeniseM
+PatrickR --> EricD
+PatrickR --> EricLM
+PatrickR --> JessicaM
 PatrickR --> MattS
-AmandaG --> EricLM
-AmandaG --> SarahW
-AmandaG --> EricD
-AmandaG --> MikeR
-AmandaG --> DeniseM
-AmandaG --> DanJ
-AmandaG --> MikalaN
-AmandaG --> ScottK
-AmandaG --> JessicaM
-AmandaG --> NatalieM
-AmandaG --> AdamH
-AmandaG --> MattS
+PatrickR --> MikalaN
+PatrickR --> MikeR
+PatrickR --> NatalieM
+PatrickR --> SarahW
+PatrickR --> ScottK
 @enduml
