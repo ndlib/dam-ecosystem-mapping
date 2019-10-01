@@ -1,0 +1,35 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+header VRC
+
+package "FileMakerPro"
+interface "curate.nd.edu"
+folder "CorpFS"
+
+CorpFS .(0).> FileMakerPro : "Digital Objects\nNamed by\nFileMakerPro ID"
+FileMakerPro .(0).> CorpFS : "Metadata\nIncludeds\nStorage Location"
+
+actor "Faculty Request Handler" as Handler
+
+FileMakerPro .(0).> curate.nd.edu : "For links\nto digital\ncollection"
+
+cloud GoogleDrive
+cloud Box
+cloud Email
+
+Handler ..> FileMakerPro : "For assembling"
+Handler ..> CorpFS : "For assembling"
+Handler ..> GoogleDrive : "For sharing"
+Handler ..> Box : "For sharing"
+Handler ..> Email : "For sharing"
+
+@enduml

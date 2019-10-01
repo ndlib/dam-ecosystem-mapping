@@ -28,6 +28,7 @@ Pending | [MARBLE](https://marble.library.nd.edu) | -
 ? | Reserves |
 Pending | [Seaside](https://seaside.library.nd.edu) | -
 First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sipity.svg)
+First Pass | VRC   | [Diagram](./plantuml/vrc.svg)
 ? | Website   |
 ? | ?   |   |
 
