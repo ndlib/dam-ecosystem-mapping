@@ -1,6 +1,7 @@
 @startuml
 actor Actor
 cloud Cloud
+collections Collections
 folder Folder
 frame Frame
 interface Interface

@@ -1,0 +1,80 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+header DAPOS
+
+cloud APTrust {
+  component Deposit
+  component Download
+}
+
+actor Processor
+collections Bag
+package SoftwareTools {
+  node Acrobat
+  node Audacity
+  node BitCurator
+  node CyberDuck
+  node DART
+  node Handbrake
+  node ImageMagick
+  node Limb
+  node Photoshop
+  node Quicktime
+}
+node Kertas
+
+note bottom of DART
+  Software provided by
+  APTrust to create Bags
+  for deposit
+end note
+
+package "DTernity" {
+  interface "NFS Mount" as DTernityNFSM
+  interface "CIFS Mount" as DTernityCIFSM
+  package "Storage" as DTernityStorage {
+    component "Cloud" as DternityCS
+    component "Tape" as DternityTS
+  }
+}
+
+package Storage {
+  cloud Box
+  cloud GoogleDrive
+  folder CorpFS
+  folder LoadingDock
+}
+cloud Sakai
+package Honeycomb
+
+CyberDuck .(0).> Deposit : "Upload\nUsing APTrust's\nS3 bucket"
+DART --> Bag
+Limb .(0).> DART
+Deposit -(0)-> Bag : "Deposit expects a Bag-like object"
+DTernityNFSM --> DternityTS : "DAPOS Storage\nOnly on Tape"
+Processor --> Download : "Request\nData from\nAPTrust"
+Processor .(0).> DTernityNFSM
+Kertas .(0).> Limb : "For batch\nediting"
+Processor --> SoftwareTools
+Processor --> Box : "For object\nstorage"
+note bottom of Box
+  Currently housing
+  digitized oral
+  histories
+end note
+Processor --> GoogleDrive : "For object\nstorage"
+Processor --> CorpFS : "For object\nstorage"
+Processor --> LoadingDock : "For temporary\nobject storage"
+Processor --> Honeycomb
+Processor --> Sakai
+
+@enduml

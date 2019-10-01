@@ -14,6 +14,7 @@ Status | Application | Diagram
 First Pass | [ArchivesSpace](http://archivesspace.library.nd.edu) | [Diagram](./plantuml/archivesspace.svg)
 ? | Coral   |
 First Pass | [CurateND](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
+First Pass | DAPOS | [Diagram](./plantuml/dapos.svg)
 ? | DEC   |
 ? | Google Team Drives   |
 ? | Inquisitions   |
@@ -52,6 +53,7 @@ In some cases you'll see a line like this `--(O)--` or a line like `--(` connect
 * **Actor** - a person
 * **Cloud** - indicates a cloud-provided service, either admnistered by Notre Dame or otherwise
   - Examples include: Google Drive, AWS, Orcid, OSF
+* **Collections** - a conceptual representation of a group of metadata and/or digital objects
 * **Folder** - a conceptual storage partition
   - Examples include: a specific Shared Drive in Google Drive
 * **Frame** - presently unused
@@ -67,3 +69,8 @@ In some cases you'll see a line like this `--(O)--` or a line like `--(` connect
 This documentation does not look to articulate what "goes in" an application. Instead to define the technology (in particular storage) and interactions between systems.
 
 The goal of the documentation is not to identify data flow but instead where data (either metadata or digital objects) may exist
+
+### Glossary
+
+* **Digital Object (DO)** - The binary file described by associated metadata; The thing that people want to see
+* **Metadata** - Descriptive, Structural, and/or Technical; The thing that gives context to a **Digital Object**
