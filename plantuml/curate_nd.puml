@@ -9,6 +9,8 @@
 # interface
 @startuml
 
+header CurateND
+
 package "curate.nd.edu" {
   component "Object Model" as CurateOM
   component "Workers" as CurateW

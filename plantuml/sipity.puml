@@ -9,6 +9,8 @@
 # interface
 @startuml
 
+header Sipity
+
 package "Sipity" {
   component "File\nStorage" as SipityFS
   component "Descriptive\nMetadata\nStorage" as SipityDMS

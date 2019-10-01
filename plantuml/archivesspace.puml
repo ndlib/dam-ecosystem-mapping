@@ -9,6 +9,8 @@
 # interface
 @startuml
 
+header ArchivesSpace
+
 
 cloud "ArchivesSpace" {
   component "Front-End"
