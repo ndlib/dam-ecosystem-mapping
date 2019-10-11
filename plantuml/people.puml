@@ -8,6 +8,8 @@ note bottom of HesburghLibraries
   a sequence diagram
 end note
 
+actor AaronB
+actor AdamH
 actor AlexP
 actor AmandaG
 actor DanJ
@@ -17,11 +19,16 @@ actor ElizabethH
 actor EricD
 actor EricLM
 actor JamesC
+actor JenniferP
 actor JulieV
+actor IanA
 actor LaurenA
+actor MelissaH
 actor MikalaN
 actor PatrickM
+actor ErikaH
 actor PatrickR
+actor SandyS
 actor SarahW
 
 AlexP --> AmandaG
@@ -36,7 +43,7 @@ AlexP --> PatrickR
 AlexP --> ScottK
 AmandaG --> AdamH
 AmandaG --> DanJ
-AmandaG --> DeniseM
+AmandaG <--> DeniseM
 AmandaG --> EricD
 AmandaG --> EricLM
 AmandaG --> JessicaM
@@ -46,8 +53,20 @@ AmandaG --> MikeR
 AmandaG --> NatalieM
 AmandaG --> SarahW
 AmandaG --> ScottK
+DeniseM --> MaryR
+DeniseM --> MikeR
+DeniseM --> SarahW
+LaurenA --> AaronB
+LaurenA --> AdamH
+LaurenA --> DeniseM
+LaurenA --> JenniferP
+LaurenA --> JuliaS
+LaurenA --> ErikaH
+LaurenA --> MelissaH
+LaurenA --> IanA
+LaurenA --> SandyS
 MikalaN --> DanJ
-MikalaN --> DeniseM
+MikalaN <--> DeniseM
 MikalaN --> EricLM
 MikalaN --> LaurenA
 MikalaN --> PatrickM
