@@ -6,7 +6,7 @@ One component of the project is to gather a draft of the systems that currently 
 
 ## Diagrams
 
-The diagrams are written using [PlantUML](http://plantuml.com) and generated via [Atom](https://atom.io)'s [plantuml-preview](https://github.com/peele/plantuml-preview) plugin.
+The diagrams are written using [PlantUML](http://plantuml.com) and generated via [Atom](https://atom.io)'s [plantuml-preview](https://github.com/peele/plantuml-preview) plugin. For now, the diagrams are organized around interviews and/or systems. That will change as we gather more information.
 
 Status | Application | Diagram
 -|-|-
