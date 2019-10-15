@@ -1,0 +1,35 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+package Aleph
+package FTPPrimoJob
+cloud Primo
+package SFX
+package CurateND
+cloud ArchivesSpace
+
+FTPPrimoJob --> Aleph
+FTPPrimoJob --> Primo
+Primo --> SFX
+Primo --> ArchivesSpace
+SFX --> CurateND
+
+
+package LibraryWebServer
+collections RomeApp
+collections ArchitectureScans
+collections BuildingSouthBend
+
+RomeApp --> LibraryWebServer
+ArchitectureScans --> LibraryWebServer
+BuildingSouthBend --> LibraryWebServer
+
+@enduml

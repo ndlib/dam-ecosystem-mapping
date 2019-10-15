@@ -12,7 +12,7 @@ Status | Application | Diagram
 -|-|-
 ? | Aleph   |
 First Pass | [ArchivesSpace](http://archivesspace.library.nd.edu) | [Diagram](./plantuml/archivesspace.svg)
-? | Coral   |
+First Pass | DAS   | [Diagram](./plantuml/das.svg)
 First Pass | [CurateND](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
 First Pass | DAPOS | [Diagram](./plantuml/dapos.svg)
 ? | DEC   |
