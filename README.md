@@ -78,27 +78,27 @@ The goal of the documentation is not to identify data flow but instead where dat
 
 ### Interview Checklist
 
-Status | Person
--|-|-
-&nbsp; | AaronB
+Status    | Person
+----------|-----------
+&nbsp;    | AaronB
 Scheduled | AdamH
 Completed | AlexP
 Completed | AmandaG
 Scheduled | DanJ
-&nbsp; | DeborahH
+&nbsp;    | DeborahH
 Completed | DeniseM
 Completed | ElizabethH
-&nbsp; | EricD
-&nbsp; | EricLM
-&nbsp; | JamesC
-&nbsp; | JenniferP
+&nbsp;    | EricD
+&nbsp;    | EricLM
+&nbsp;    | JamesC
+&nbsp;    | JenniferP
 Scheduled | JulieV
-&nbsp; | IanA
+&nbsp;    | IanA
 Completed | LaurenA
 Scheduled | MelissaH
 Completed | MikalaN
 Completed | PatrickM
-&nbsp; | ErikaH
+&nbsp;    | ErikaH
 Completed | PatrickR
 Scheduled | SandyS
 Scheduled | SarahW
