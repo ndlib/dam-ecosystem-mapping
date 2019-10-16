@@ -1,0 +1,49 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+header ArchivesNonTimeBasedMedia
+
+actor Archivist
+
+package "DTernity" {
+  interface "NFS Mount" as DTernityNFSM
+  interface "CIFS Mount" as DTernityCIFSM
+  package "Storage" as DTernityStorage {
+    component "Cloud" as DternityCS
+    component "Tape" as DternityTS
+  }
+}
+
+node AdobePhotoshop [
+  AdobePhotoshop
+  (for editing images)
+]
+node AdobeBridge [
+  AdobeBridge
+  (for editing metadata)
+]
+
+
+node Portfolio [
+  Portfolio
+  (for DAMS)
+]
+
+node ReadingRoomComputer
+
+Archivist --> DTernityCIFSM
+Archivist --> AdobeBridge
+Archivist --> AdobePhotoshop
+Archivist --> Portfolio
+Portfolio --> DTernityCIFSM
+Archivist --> ReadingRoomComputer
+
+@enduml

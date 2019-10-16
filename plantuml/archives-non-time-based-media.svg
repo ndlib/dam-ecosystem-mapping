@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="363px" preserveAspectRatio="none" style="width:1086px;height:363px;" version="1.1" viewBox="0 0 1086 363"
+    width="1086px" zoomAndPan="magnify"><defs><filter height="300%" id="f11baytagewklp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="143" x="931" y="9.668">ArchivesNonTimeBasedMedia</text><!--MD5=[8c9b6bf02c885b7ba5866d030e10667c]
+cluster DTernity--><polygon fill="#FFFFFF" filter="url(#f11baytagewklp)" points="618.5,242.7773,687.5,242.7773,694.5,265.2656,1047.5,265.2656,1047.5,351.7773,618.5,351.7773,618.5,242.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="618.5" x2="694.5" y1="265.2656" y2="265.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="622.5" y="258.3125">DTernity</text><!--MD5=[e9e3ba0bf15797c0c490631f9deee05c]
+cluster DTernityStorage--><polygon fill="#FFFFFF" filter="url(#f11baytagewklp)" points="872.5,269.7773,932.5,269.7773,939.5,292.2656,1039.5,292.2656,1039.5,340.7773,872.5,340.7773,872.5,269.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="872.5" x2="939.5" y1="292.2656" y2="292.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="876.5" y="285.3125">Storage</text><!--MD5=[122471d58b7557712b3645c406151814]
+entity DTernityNFSM--><ellipse cx="800.5" cy="314.7773" fill="#FEFECE" filter="url(#f11baytagewklp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="763.5" y="345.3125">NFS Mount</text><!--MD5=[52d5b48969f4d8ab03330ef1bdf65780]
+entity DTernityCIFSM--><ellipse cx="673.5" cy="314.7773" fill="#FEFECE" filter="url(#f11baytagewklp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="634.5" y="345.3125">CIFS Mount</text><!--MD5=[2134bfea3f0564af1f6584dd54f55a6d]
+entity DternityCS--><rect fill="#FEFECE" filter="url(#f11baytagewklp)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="61" x="970" y="296.7773"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="965" y="301.7773"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="965" y="323.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="980" y="320.3125">Cloud</text><!--MD5=[9b637540d1516a39865ba1e8b60410be]
+entity DternityTS--><rect fill="#FEFECE" filter="url(#f11baytagewklp)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="54" x="880.5" y="296.7773"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="875.5" y="301.7773"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="875.5" y="323.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="890.5" y="320.3125">Tape</text><!--MD5=[433854bbb7162153e04f0d54d50913b2]
+entity Archivist--><ellipse cx="498.5" cy="29.7773" fill="#FEFECE" filter="url(#f11baytagewklp)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M498.5,37.7773 L498.5,64.7773 M485.5,45.7773 L511.5,45.7773 M498.5,64.7773 L485.5,79.7773 M498.5,64.7773 L511.5,79.7773 " fill="none" filter="url(#f11baytagewklp)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="469" y="100.3125">Archivist</text><!--MD5=[84e6a5cdbc8f40242bad427e20152255]
+entity AdobePhotoshop--><polygon fill="#FEFECE" filter="url(#f11baytagewklp)" points="6,172.7773,16,162.7773,181,162.7773,181,215.7539,171,225.7539,6,225.7539,6,172.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="171" x2="180" y1="172.7773" y2="163.7773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="6" x2="171" y1="172.7773" y2="172.7773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="171" x2="171" y1="172.7773" y2="225.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="21" y="196.3125">AdobePhotoshop</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="21" y="212.8008">(for editing images)</text><!--MD5=[cf64e38d713094a77813d583fbeafb3c]
+entity AdobeBridge--><polygon fill="#FEFECE" filter="url(#f11baytagewklp)" points="216.5,172.7773,226.5,162.7773,406.5,162.7773,406.5,215.7539,396.5,225.7539,216.5,225.7539,216.5,172.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="396.5" x2="405.5" y1="172.7773" y2="163.7773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="216.5" x2="396.5" y1="172.7773" y2="172.7773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="396.5" x2="396.5" y1="172.7773" y2="225.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="231.5" y="196.3125">AdobeBridge</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="231.5" y="212.8008">(for editing metadata)</text><!--MD5=[85d4435ecdbead8f0dadbc09d539e16e]
+entity Portfolio--><polygon fill="#FEFECE" filter="url(#f11baytagewklp)" points="441.5,172.7773,451.5,162.7773,555.5,162.7773,555.5,215.7539,545.5,225.7539,441.5,225.7539,441.5,172.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="545.5" x2="554.5" y1="172.7773" y2="163.7773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="441.5" x2="545.5" y1="172.7773" y2="172.7773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="545.5" x2="545.5" y1="172.7773" y2="225.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="456.5" y="196.3125">Portfolio</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="456.5" y="212.8008">(for DAMS)</text><!--MD5=[2780d33e0d6a8d2e78c9806c8a211931]
+entity ReadingRoomComputer--><polygon fill="#FEFECE" filter="url(#f11baytagewklp)" points="591,181.2773,601,171.2773,796,171.2773,796,207.7656,786,217.7656,591,217.7656,591,181.2773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="786" x2="795" y1="181.2773" y2="172.2773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="591" x2="786" y1="181.2773" y2="181.2773"/><line style="stroke: #000000; stroke-width: 1.5;" x1="786" x2="786" y1="181.2773" y2="217.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="606" y="204.8125">ReadingRoomComputer</text><!--MD5=[8947e15508cfb0a0be0b9de1eb2c7c2c]
+link Archivist to DTernityCIFSM--><path d="M528.2029,66.3232 C599.894,79.1685 779.0369,115.4646 813.5,162.7773 C829.9856,185.4097 830.9741,203.8991 813.5,225.7773 C792.1698,252.4835 767.9954,225.5083 738.5,242.7773 C713.5265,257.3988 692.7919,284.8334 681.8583,301.2908 " fill="none" id="Archivist-&gt;DTernityCIFSM" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="679.039,305.6218,687.3013,300.2615,681.7668,301.4315,680.5968,295.897,679.039,305.6218" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d70943939b7929737679dd17f602e401]
+link Archivist to AdobeBridge--><path d="M468.8693,82.3515 C439.6751,103.1153 394.5678,135.197 360.1177,159.6989 " fill="none" id="Archivist-&gt;AdobeBridge" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="355.9711,162.6481,365.6236,160.6914,360.0456,159.7502,360.9869,154.1722,355.9711,162.6481" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[23b0f515fb9bf1d85659f97bcdfb67c6]
+link Archivist to AdobePhotoshop--><path d="M468.7194,71.0571 C409.9449,90.3584 276.8674,134.0603 186.0813,163.8741 " fill="none" id="Archivist-&gt;AdobePhotoshop" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="181.2494,165.4608,191.0482,166.4529,185.9998,163.9007,188.552,158.8523,181.2494,165.4608" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[997abb9628a87e2072439fb0c51afa89]
+link Archivist to Portfolio--><path d="M498.5,102.9944 C498.5,120.3922 498.5,140.4309 498.5,157.2931 " fill="none" id="Archivist-&gt;Portfolio" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="498.5,162.4178,502.5,153.4178,498.5,157.4178,494.5,153.4178,498.5,162.4178" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8090308758b03119756a6119c4962c8c]
+link Portfolio to DTernityCIFSM--><path d="M544.4792,225.9373 C583.1851,252.5891 636.0022,288.9574 660.2926,305.6831 " fill="none" id="Portfolio-&gt;DTernityCIFSM" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="664.4864,308.5708,659.3424,300.1721,660.3683,305.7352,654.8052,306.7611,664.4864,308.5708" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[89cdeab748ece87b1e28879a119e9f16]
+link Archivist to ReadingRoomComputer--><path d="M528.1163,81.4771 C562.1072,104.6607 617.9506,142.7487 655.2161,168.1657 " fill="none" id="Archivist-&gt;ReadingRoomComputer" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="659.6658,171.2007,654.4845,162.8249,655.5351,168.3834,649.9767,169.434,659.6658,171.2007" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[18215fb795a24a35a92d97ab42410a5a]
+@startuml
+
+header ArchivesNonTimeBasedMedia
+
+actor Archivist
+
+package "DTernity" {
+  interface "NFS Mount" as DTernityNFSM
+  interface "CIFS Mount" as DTernityCIFSM
+  package "Storage" as DTernityStorage {
+    component "Cloud" as DternityCS
+    component "Tape" as DternityTS
+  }
+}
+
+node AdobePhotoshop [
+  AdobePhotoshop
+  (for editing images)
+]
+node AdobeBridge [
+  AdobeBridge
+  (for editing metadata)
+]
+
+
+node Portfolio [
+  Portfolio
+  (for DAMS)
+]
+
+node ReadingRoomComputer
+
+Archivist - -> DTernityCIFSM
+Archivist - -> AdobeBridge
+Archivist - -> AdobePhotoshop
+Archivist - -> Portfolio
+Portfolio - -> DTernityCIFSM
+Archivist - -> ReadingRoomComputer
+
+@enduml
+
+PlantUML version 1.2019.10(Fri Sep 13 16:53:03 EDT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
