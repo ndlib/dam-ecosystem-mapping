@@ -75,3 +75,30 @@ The goal of the documentation is not to identify data flow but instead where dat
 
 * **Digital Object (DO)** - The binary file described by associated metadata; The thing that people want to see
 * **Metadata** - Descriptive, Structural, and/or Technical; The thing that gives context to a **Digital Object**
+
+### Interview Checklist
+
+Status | Person
+-|-|-
+- | AaronB
+Scheduled | AdamH
+Completed | AlexP
+Completed | AmandaG
+Scheduled | DanJ
+- | DeborahH
+Completed | DeniseM
+Completed | ElizabethH
+- | EricD
+- | EricLM
+- | JamesC
+- | JenniferP
+- | JulieV
+- | IanA
+Completed | LaurenA
+- | MelissaH
+Completed | MikalaN
+Completed | PatrickM
+- | ErikaH
+Completed | PatrickR
+Scheduled | SandyS
+Scheduled | SarahW
