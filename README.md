@@ -92,10 +92,10 @@ Completed | ElizabethH
 - | EricLM
 - | JamesC
 - | JenniferP
-- | JulieV
+Scheduled | JulieV
 - | IanA
 Completed | LaurenA
-- | MelissaH
+Scheduled | MelissaH
 Completed | MikalaN
 Completed | PatrickM
 - | ErikaH
