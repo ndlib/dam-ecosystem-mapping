@@ -1,0 +1,40 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+header CDS
+
+collections "Digital Signage" as DS
+collections "Equipment Images" as EI
+collections "Space Images" as SI
+collections "CDS Workshops" as CDSW
+collections "Love Data Week Presentations" as LDWP
+collections "Library Research Award" as LRA
+collections "CDS Knowledge Base" as CDSKB
+
+cloud Box
+cloud Github
+cloud Tableau
+cloud GoogleSites
+cloud OSF
+cloud GoogleSuite
+cloud LibCal
+package CurateND
+
+DS ..> Box
+CDSW ..> Github
+LRA ..> CurateND
+LDWP ..> OSF
+CDSKB ..> GoogleSites
+CDSKB ..> GoogleSuite
+EI ..> LibCal
+SI ..> LibCal
+
+@enduml

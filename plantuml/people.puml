@@ -12,22 +12,24 @@ actor AaronB
 actor AdamH
 actor AlexP
 actor AmandaG
+actor AnnaMM
 actor DanJ
 actor DeborahH
 actor DeniseM
 actor ElizabethH
 actor EricD
 actor EricLM
+actor ErikaH
+actor IanA
 actor JamesC
 actor JenniferP
 actor JulieV
-actor IanA
 actor LaurenA
 actor MelissaH
 actor MikalaN
 actor PatrickM
-actor ErikaH
 actor PatrickR
+actor RandyH
 actor SandyS
 actor SarahW
 
@@ -43,7 +45,7 @@ AlexP --> PatrickR
 AlexP --> ScottK
 AmandaG --> AdamH
 AmandaG --> DanJ
-AmandaG <--> DeniseM
+AmandaG --> DeniseM
 AmandaG --> EricD
 AmandaG --> EricLM
 AmandaG --> JessicaM
@@ -53,32 +55,40 @@ AmandaG --> MikeR
 AmandaG --> NatalieM
 AmandaG --> SarahW
 AmandaG --> ScottK
+DeniseM --> AmandaG
 DeniseM --> MaryR
+DeniseM --> MikalaN
 DeniseM --> MikeR
 DeniseM --> SarahW
 ElizabethH --> AmandaG
-ElizabethH --> PatrickR
-ElizabethH --> ScottK
-ElizabethH --> SarahW
 ElizabethH --> DeniseM
 ElizabethH --> EricD
+ElizabethH --> PatrickR
+ElizabethH --> SarahW
+ElizabethH --> ScottK
+JulieV --> AndyW
+JulieV --> AnnaMM
+JulieV --> DanJ
+JulieV --> EricLM
+JulieV --> MattS
+JulieV --> RandyH
 LaurenA --> AaronB
 LaurenA --> AdamH
 LaurenA --> DeniseM
+LaurenA --> ErikaH
+LaurenA --> IanA
 LaurenA --> JenniferP
 LaurenA --> JuliaS
-LaurenA --> ErikaH
 LaurenA --> MelissaH
-LaurenA --> IanA
 LaurenA --> SandyS
+MikalaN --> AmandaG
 MikalaN --> DanJ
-MikalaN <--> DeniseM
+MikalaN --> DeniseM
 MikalaN --> EricLM
 MikalaN --> LaurenA
 MikalaN --> PatrickM
+MikalaN --> PatrickR
 MikalaN --> SarahW
-MikalaN <--> AmandaG
-MikalaN <--> PatrickR
 PatrickM --> AmandaG
 PatrickM --> DeborahH
 PatrickM --> ElizabethH
@@ -98,4 +108,5 @@ PatrickR --> MikeR
 PatrickR --> NatalieM
 PatrickR --> SarahW
 PatrickR --> ScottK
+
 @enduml
