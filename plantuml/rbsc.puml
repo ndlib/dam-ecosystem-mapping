@@ -18,11 +18,11 @@ collections NumesmaticWebsite
 folder CorpFS
 package Aleph
 package DEC
-package FilemakerProp
-package Phocus
+package FilemakerPro
+node Phocus
 
 ArchivesSpace --> CorpFS
-FilemakerProp --> CorpFS
+FilemakerPro --> CorpFS
 NumesmaticWebsite --> CorpFS
 Phocus --> ArchiveFiles
 ArchiveFiles --> Aleph

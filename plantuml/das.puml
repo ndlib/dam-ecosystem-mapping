@@ -21,12 +21,12 @@ collections DiscoveryCollection
 collections MARCRecords
 collections RomeApp
 folder LDrive
+node MARCModifier
 package Aleph
 package CORAL
 package CurateND
 package FTPPrimoJob
 package LibraryWebServer
-package MARCModifier
 package SFX
 
 ArchitectureScans --> LibraryWebServer

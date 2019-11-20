@@ -18,15 +18,36 @@ collections "CDS Workshops" as CDSW
 collections "Love Data Week Presentations" as LDWP
 collections "Library Research Award" as LRA
 collections "CDS Knowledge Base" as CDSKB
+collections "Digital Humanities Workshop" as DHW
+collections "CSVs"
 
 cloud Box
 cloud Github
-cloud Tableau
 cloud GoogleSites
-cloud OSF
 cloud GoogleSuite
 cloud LibCal
+cloud Mendalay
+cloud OSF
+cloud QUaltrics
+cloud ReclaimHosting
+cloud Refworks
+cloud Tableau
+cloud Zotero
+node "Notepad++" as NP
+node OxygenXML
+node PDFAnnotator
+node VSCode
+node Excel
 package CurateND
+package FilemakerProp
+package LibGuids
+node SocialScienceSoftware
+node TopicModelingSoftare
+cloud JSTor
+
+JSTor .(0).> CSVs
+TopicModelingSoftare .(0).> CSVs
+SocialScienceSoftware .(0).> CSVs
 
 DS ..> Box
 CDSW ..> Github
@@ -36,5 +57,6 @@ CDSKB ..> GoogleSites
 CDSKB ..> GoogleSuite
 EI ..> LibCal
 SI ..> LibCal
+DHW ..> LibGuids
 
 @enduml

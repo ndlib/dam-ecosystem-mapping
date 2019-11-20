@@ -83,7 +83,7 @@ Status    | Person
 Scheduled | AdamH
 Completed | AlexP
 Completed | AmandaG
-Scheduled | DanJ
+Completed | DanJ
 &nbsp;    | DeborahH
 Completed | DeniseM
 Completed | ElizabethH
