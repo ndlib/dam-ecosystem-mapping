@@ -11,27 +11,38 @@
 
 header DAS
 
-package Aleph
-package FTPPrimoJob
-cloud Primo
-package SFX
-package CurateND
+actor MetadataDiscoverySystemSpecialist
 cloud ArchivesSpace
-
-FTPPrimoJob --> Aleph
-FTPPrimoJob --> Primo
-Primo --> SFX
-Primo --> ArchivesSpace
-SFX --> CurateND
-
-
-package LibraryWebServer
-collections RomeApp
+cloud OCLC
+cloud Primo
 collections ArchitectureScans
 collections BuildingSouthBend
+collections DiscoveryCollection
+collections MARCRecords
+collections RomeApp
+folder LDrive
+package Aleph
+package CORAL
+package CurateND
+package FTPPrimoJob
+package LibraryWebServer
+package MARCModifier
+package SFX
 
-RomeApp --> LibraryWebServer
 ArchitectureScans --> LibraryWebServer
 BuildingSouthBend --> LibraryWebServer
+MetadataDiscoverySystemSpecialist --> MARCModifier
+MetadataDiscoverySystemSpecialist --> CORAL : For correspondence\nw/ vendor
+DiscoveryCollection --> Primo
+FTPPrimoJob --> Aleph
+FTPPrimoJob --> Primo
+MARCModifier --> MARCRecords
+MARCRecords --> LDrive
+OCLC --> MARCRecords
+Primo --> ArchivesSpace
+Primo --> SFX
+RomeApp --> LibraryWebServer
+SFX --> CurateND
+
 
 @enduml

@@ -13,6 +13,7 @@ actor AdamH
 actor AlexP
 actor AmandaG
 actor AnnaMM
+actor BelindaO
 actor DanJ
 actor DeborahH
 actor DeniseM
@@ -25,11 +26,14 @@ actor JamesC
 actor JenniferP
 actor JulieV
 actor LaurenA
+actor LisaS
+actor MarkD
 actor MelissaH
 actor MikalaN
 actor PatrickM
 actor PatrickR
 actor RandyH
+actor RobinL
 actor SandyS
 actor SarahW
 
@@ -108,6 +112,11 @@ PatrickR --> MikeR
 PatrickR --> NatalieM
 PatrickR --> SarahW
 PatrickR --> ScottK
+SandyS -> AaronB
+SandyS -> BelindaO
+SandyS -> LisaS
+SandyS -> MarkD
+SandyS -> RobinL
 SarahW --> AdamH
 SarahW --> AmandaG
 SarahW --> DeniseM

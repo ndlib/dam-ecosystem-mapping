@@ -99,5 +99,5 @@ Completed | MikalaN
 Completed | PatrickM
 &nbsp;    | ErikaH
 Completed | PatrickR
-Scheduled | SandyS
+Completed | SandyS
 Completed | SarahW
