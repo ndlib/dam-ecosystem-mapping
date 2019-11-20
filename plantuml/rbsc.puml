@@ -1,0 +1,31 @@
+# Render via PlantUML
+# Generated via plantuml-preview (https://github.com/peele/plantuml-preview) in Atom
+# package
+# node
+# folder
+# frame
+# cloud
+# database
+# interface
+@startuml
+
+header RBSC - Sara Webber
+
+actor RBSCDigitizer
+cloud ArchivesSpace
+collections ArchiveFiles
+collections NumesmaticWebsite
+folder CorpFS
+package Aleph
+package DEC
+package FilemakerProp
+package Phocus
+
+ArchivesSpace --> CorpFS
+FilemakerProp --> CorpFS
+NumesmaticWebsite --> CorpFS
+Phocus --> ArchiveFiles
+ArchiveFiles --> Aleph
+ArchiveFiles --> CorpFS
+RBSCDigitizer --> DEC
+@enduml

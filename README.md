@@ -23,9 +23,7 @@ First Pass | DAPOS | [Diagram](./plantuml/dapos.svg)
 ? | Intranet   |
 ? | Loading Dock   |
 Pending | [MARBLE](https://marble.library.nd.edu) | -
-? | Medieval Microfilms |
-? | Numismatics   |
-? | Primo   |
+First Pass | RBSC   | [Diagram](./plantuml/rbsc.svg)
 ? | Remix   |
 ? | Reserves |
 Pending | [Seaside](https://seaside.library.nd.edu) | -
@@ -102,4 +100,4 @@ Completed | PatrickM
 &nbsp;    | ErikaH
 Completed | PatrickR
 Scheduled | SandyS
-Scheduled | SarahW
+Completed | SarahW

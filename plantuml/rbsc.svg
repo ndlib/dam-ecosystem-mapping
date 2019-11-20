@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="336px" preserveAspectRatio="none" style="width:775px;height:336px;" version="1.1" viewBox="0 0 775 336"
+    width="775px" zoomAndPan="magnify"><defs><filter height="300%" id="fplvqj4zvjpp1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="97" x="666" y="9.668">RBSC - Sara Webber</text><!--MD5=[9e71483370136eee8f87787b482129f8]
+entity RBSCDigitizer--><ellipse cx="52.5" cy="29.7773" fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M52.5,37.7773 L52.5,64.7773 M39.5,45.7773 L65.5,45.7773 M52.5,64.7773 L39.5,79.7773 M52.5,64.7773 L65.5,79.7773 " fill="none" filter="url(#fplvqj4zvjpp1)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="6" y="100.3125">RBSCDigitizer</text><!--MD5=[c16568e590649fdf03b8baed12c39504]
+entity ArchivesSpace--><path d="M126.9748,172.2591 C129.4415,166.8422 133.5232,167.2939 136.7953,171.4313 C140.9985,164.9123 145.4778,166.1365 149.803,171.2955 C152.6167,165.0989 155.9824,165.6936 160.3549,169.6803 C163.2101,163.1039 168.998,163.2971 172.4959,169.0471 C174.9139,163.3149 179.3437,162.6239 182.9647,167.9034 C187.6441,163.0502 191.3178,164.5064 193.8046,170.1646 C197.559,165.7374 200.7615,164.8173 204.1035,170.5814 C207.2195,165.4416 212.6668,165.2508 215.5844,170.7946 C218.9106,165.8392 224.9887,165.2173 228.0466,171.1031 C232.7237,166.0184 236.3023,166.9627 239.6404,172.5568 C247.9941,175.8689 248.9157,181.5861 243.2503,188.1448 C248.808,194.3057 247.3048,200.8175 238.8978,202.8432 C235.2441,208.138 231.3225,208.4887 227.9194,202.5974 C225.4997,208.2384 220.0755,208.6465 216.6195,203.7039 C213.5712,208.3231 209.0037,208.8775 206.0965,203.5545 C203.5863,210.7973 197.8217,209.7424 193.7015,205.256 C190.6271,210.4703 185.9249,211.4072 181.8079,206.4787 C178.0123,210.4286 174.4628,211.0496 171.6353,205.4476 C167.4815,210.6264 163.1111,210.8916 159.9102,204.4833 C157.2423,209.7698 152.419,209.1765 150.0009,204.2411 C145.6536,209.1095 141.004,208.5194 138.0954,202.6465 C134.208,207.5198 128.5251,207.8083 125.806,201.3765 C118.6614,198.1156 116.2345,191.4492 123.8135,186.249 C118.9857,180.0714 118.8762,175.5158 126.9748,172.2591 " fill="#FEFECE" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="132.5" y="191.3125">ArchivesSpace</text><!--MD5=[56febc05ae0fe033c9916fd8d3d8ce7e]
+entity ArchiveFiles--><rect fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" height="32.4883" style="stroke: #000000; stroke-width: 1.5;" width="98" x="646.5" y="171.7773"/><rect fill="#FEFECE" height="32.4883" style="stroke: #000000; stroke-width: 1.5;" width="98" x="642.5" y="167.7773"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="650.5" y="189.3125">ArchiveFiles</text><!--MD5=[52a56787dd7937c9f09b0ab915af3f46]
+entity NumesmaticWebsite--><rect fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" height="32.4883" style="stroke: #000000; stroke-width: 1.5;" width="153" x="285" y="171.7773"/><rect fill="#FEFECE" height="32.4883" style="stroke: #000000; stroke-width: 1.5;" width="153" x="281" y="167.7773"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="289" y="189.3125">NumesmaticWebsite</text><!--MD5=[5832b04387d6d292f6f43f23dd6aafd7]
+entity CorpFS--><polygon fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" points="410.5,268.7773,456.5,268.7773,463.5,289.7773,490.5,289.7773,490.5,324.7539,410.5,324.7539,410.5,268.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="410.5" x2="463.5" y1="289.7773" y2="289.7773"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="420.5" y="310.3125">CorpFS</text><!--MD5=[fa8019ea18872dd8c4c2f138e2281076]
+entity Aleph--><polygon fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" points="658,277.2773,705,277.2773,712,299.7656,729,299.7656,729,316.7656,658,316.7656,658,277.2773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="658" x2="712" y1="299.7656" y2="299.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="662" y="293.8125">Aleph</text><!--MD5=[1f076d9164310d22b1a1a4b6a9ac675c]
+entity DEC--><polygon fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" points="23,166.2773,58,166.2773,65,188.7656,82,188.7656,82,205.7656,23,205.7656,23,166.2773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="23" x2="65" y1="188.7656" y2="188.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="27" y="182.8125">DEC</text><!--MD5=[6e26648ed93134a0ab85a2dde79bf30b]
+entity FilemakerProp--><polygon fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" points="473.5,166.2773,583.5,166.2773,590.5,188.7656,607.5,188.7656,607.5,205.7656,473.5,205.7656,473.5,166.2773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="473.5" x2="590.5" y1="188.7656" y2="188.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="477.5" y="182.8125">FilemakerProp</text><!--MD5=[f40cf7e5b0d15f4cf3784ebc06908e90]
+entity Phocus--><polygon fill="#FEFECE" filter="url(#fplvqj4zvjpp1)" points="653,41.7773,710,41.7773,717,64.2656,734,64.2656,734,81.2656,653,81.2656,653,41.7773" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="653" x2="717" y1="64.2656" y2="64.2656"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="657" y="58.3125">Phocus</text><!--MD5=[adc6fad536daceb04afa0f6061e5cacc]
+link ArchivesSpace to CorpFS--><path d="M237.5638,208.9114 C287.4333,229.4896 359.4166,259.1927 405.5814,278.2421 " fill="none" id="ArchivesSpace-&gt;CorpFS" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="410.2445,280.1663,403.4508,273.0357,405.6226,278.2591,400.3992,280.4308,410.2445,280.1663" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e7814eba004cd93286f9207f3aff0947]
+link FilemakerProp to CorpFS--><path d="M524.617,205.3664 C511.3869,221.6834 492.2724,245.258 476.7687,264.3792 " fill="none" id="FilemakerProp-&gt;CorpFS" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="473.3171,268.6362,482.0924,264.1647,476.4661,264.7525,475.8784,259.1263,473.3171,268.6362" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4db88c4d618e6ef4a70e29f9cbddeec7]
+link NumesmaticWebsite to CorpFS--><path d="M374.5268,204.1067 C387.8555,220.3648 407.6411,244.4988 423.6795,264.0622 " fill="none" id="NumesmaticWebsite-&gt;CorpFS" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="427.2498,268.4172,424.6372,258.9212,424.0798,264.5506,418.4505,263.9932,427.2498,268.4172" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b695e7069191791e4855ee337f6a0f40]
+link Phocus to ArchiveFiles--><path d="M693.5,81.0047 C693.5,103.1878 693.5,139.1711 693.5,162.6564 " fill="none" id="Phocus-&gt;ArchiveFiles" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="693.5,167.7592,697.5,158.7592,693.5,162.7592,689.5,158.7592,693.5,167.7592" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[432b513a8d803886c11bdc5953442f74]
+link ArchiveFiles to Aleph--><path d="M693.5,204.1067 C693.5,222.6123 693.5,251.322 693.5,271.8807 " fill="none" id="ArchiveFiles-&gt;Aleph" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="693.5,276.9207,697.5,267.9207,693.5,271.9207,689.5,267.9207,693.5,276.9207" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0b00413e0e015f748a842fe26627aa74]
+link ArchiveFiles to CorpFS--><path d="M653.917,203.8584 C610.4901,223.6954 540.9289,255.4703 495.4719,276.2346 " fill="none" id="ArchiveFiles-&gt;CorpFS" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="490.8758,278.334,500.7241,278.2331,495.4238,276.2566,497.4003,270.9563,490.8758,278.334" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5f0dad55d2819e59a0a8a3c4dc6cd5ed]
+link RBSCDigitizer to DEC--><path d="M52.5,103.0803 C52.5,122.2474 52.5,144.3239 52.5,160.8434 " fill="none" id="RBSCDigitizer-&gt;DEC" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="52.5,166.2204,56.5,157.2204,52.5,161.2204,48.5,157.2204,52.5,166.2204" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[35a6ec9f18445141d4a969b8f5f33782]
+@startuml
+
+header RBSC - Sara Webber
+
+actor RBSCDigitizer
+cloud ArchivesSpace
+collections ArchiveFiles
+collections NumesmaticWebsite
+folder CorpFS
+package Aleph
+package DEC
+package FilemakerProp
+package Phocus
+
+ArchivesSpace - -> CorpFS
+FilemakerProp - -> CorpFS
+NumesmaticWebsite - -> CorpFS
+Phocus - -> ArchiveFiles
+ArchiveFiles - -> Aleph
+ArchiveFiles - -> CorpFS
+RBSCDigitizer - -> DEC
+@enduml
+
+PlantUML version 1.2019.10(Fri Sep 13 16:53:03 EDT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

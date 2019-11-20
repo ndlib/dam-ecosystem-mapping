@@ -108,5 +108,12 @@ PatrickR --> MikeR
 PatrickR --> NatalieM
 PatrickR --> SarahW
 PatrickR --> ScottK
+SarahW --> AdamH
+SarahW --> AmandaG
+SarahW --> DeniseM
+SarahW --> ElizabethH
+SarahW --> MattS
+SarahW --> PatrickM
+SarahW --> PatrickR
 
 @enduml
