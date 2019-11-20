@@ -37,6 +37,11 @@ actor RobinL
 actor SandyS
 actor SarahW
 
+AdamH --> DanJ
+AdamH --> DeniseM
+AdamH --> MattS
+AdamH --> PatrickM
+AdamH --> SarahW
 AlexP --> AmandaG
 AlexP --> DanJ
 AlexP --> ElizabethH

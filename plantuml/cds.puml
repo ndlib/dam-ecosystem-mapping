@@ -19,12 +19,15 @@ collections "Love Data Week Presentations" as LDWP
 collections "Library Research Award" as LRA
 collections "CDS Knowledge Base" as CDSKB
 collections "Digital Humanities Workshop" as DHW
-collections "CSVs"
+collections CSVs
 
+cloud ArchivesSpace
 cloud Box
 cloud Github
+cloud GoogleDrive
 cloud GoogleSites
 cloud GoogleSuite
+cloud JSTor
 cloud LibCal
 cloud Mendalay
 cloud OSF
@@ -33,21 +36,29 @@ cloud ReclaimHosting
 cloud Refworks
 cloud Tableau
 cloud Zotero
+folder LoadingDock
 node "Notepad++" as NP
+node Excel
 node OxygenXML
 node PDFAnnotator
-node VSCode
-node Excel
-package CurateND
-package FilemakerProp
-package LibGuids
 node SocialScienceSoftware
 node TopicModelingSoftare
-cloud JSTor
+node VSCode
+node Photoshop
+node Illustrator
+package CurateND
+package DEC
+package FilemakerPro
+package LibGuids
 
 JSTor .(0).> CSVs
 TopicModelingSoftare .(0).> CSVs
 SocialScienceSoftware .(0).> CSVs
+FilemakerPro .(0).> LoadingDock
+CSVs .(0).> DEC
+DEC .(0).> GoogleDrive : "For image\nURL reference"
+DEC .(0).> GoogleDrive : "For bulk\nimage editing"
+ArchivesSpace .(0).> GoogleDrive : "For work to\nimport FilemakerPro"
 
 DS ..> Box
 CDSW ..> Github

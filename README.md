@@ -80,7 +80,7 @@ The goal of the documentation is not to identify data flow but instead where dat
 Status    | Person
 ----------|-----------
 &nbsp;    | AaronB
-Scheduled | AdamH
+Completed | AdamH
 Completed | AlexP
 Completed | AmandaG
 Completed | DanJ
