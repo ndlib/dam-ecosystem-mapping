@@ -79,25 +79,21 @@ The goal of the documentation is not to identify data flow but instead where dat
 
 Status    | Person
 ----------|-----------
-&nbsp;    | AaronB
+Scheduled | AaronB
 Completed | AdamH
 Completed | AlexP
 Completed | AmandaG
 Completed | DanJ
-&nbsp;    | DeborahH
 Completed | DeniseM
 Completed | ElizabethH
-&nbsp;    | EricD
-&nbsp;    | EricLM
-&nbsp;    | JamesC
-&nbsp;    | JenniferP
+Scheduled | EricD
+Scheduled | EricLM
 Completed | JulieV
-&nbsp;    | IanA
 Completed | LaurenA
 Scheduled | MelissaH
 Completed | MikalaN
 Completed | PatrickM
-&nbsp;    | ErikaH
+Scheduled | ErikaH
 Completed | PatrickR
 Completed | SandyS
 Completed | SarahW
