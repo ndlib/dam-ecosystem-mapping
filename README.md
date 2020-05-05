@@ -15,7 +15,7 @@ First Pass | [ArchivesSpace](http://archivesspace.library.nd.edu) | [Diagram](./
 First Pass  | Archives Non-Time Based Media  | [Diagram](./plantuml/archives-non-time-based-media.svg)
 First Pass  | CDS   | [Diagram](./plantuml/cds.svg)
 First Pass | DAS   | [Diagram](./plantuml/das.svg)
-First Pass | [CurateND](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
+First Pass | [CurateND and Sipity](https://curate.nd.edu) | [Diagram](./plantuml/curate_nd.svg)
 First Pass | DAPOS | [Diagram](./plantuml/dapos.svg)
 ? | DEC   |
 ? | Google Team Drives   |
@@ -27,7 +27,6 @@ First Pass | RBSC   | [Diagram](./plantuml/rbsc.svg)
 ? | Remix   |
 ? | Reserves |
 Pending | [Seaside](https://seaside.library.nd.edu) | -
-First Pass | [Sipity](https://deposit.library.nd.edu) | [Diagram](./plantuml/sipity.svg)
 First Pass | VRC   | [Diagram](./plantuml/vrc.svg)
 ? | Website   |
 ? | ?   |   |

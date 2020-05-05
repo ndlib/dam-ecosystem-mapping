@@ -24,6 +24,28 @@ package Disadis {
   folder "Web Logs" as WebLogs
 }
 
+package "Sipity" {
+  component "File\nStorage" as SipityFS
+  component "Descriptive\nMetadata\nStorage" as SipityDMS
+  component "Batch Exporter" as SipityBE
+  component "Business Logic" as SipityBL
+  interface "API" as SipityAPI
+  database "MySql"
+
+}
+
+package OCLC
+package Aleph
+
+package OnBase
+
+package Locabulary
+SipityDMS ..> Locabulary : "for\ncontrolled\nvocabulary"
+
+cloud "AWS" {
+  component S3
+}
+
 cloud OSF
 CurateBL --> OSF
 cloud Orcid
@@ -128,5 +150,18 @@ BatchWorkers --> LocalNFSMount
 BatchStaging --> LocalNFSMount
 Disadis --> FedoraHTTP
 CurateBL --> Disadis
+
+
+SipityFS --> S3
+SipityDMS --> MySql
+SipityBE --> BatchAPI
+SipityFS --> SipityBE
+SipityDMS --> SipityBE
+Batch ..( SipityAPI : "From Webhook\nprovided by\nSipity"
+SipityBL --> MySql
+SipityBL --> Noids
+OnBase --> SipityAPI
+SipityBL .(0).> Aleph
+SipityBL .(0).> OCLC
 
 @enduml
